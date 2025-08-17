@@ -1,4 +1,4 @@
-import { Given, When, Then /* não precisa importar And */ } from 'cypress-cucumber-preprocessor/steps'
+import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 import CRUDpositivoPage from '../pages/CRUDpositivo';
 
 const page = new CRUDpositivoPage()
